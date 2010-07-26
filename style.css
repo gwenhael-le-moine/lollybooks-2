@@ -17,7 +17,7 @@ Version: 0.0.1
 /* } */
 
 body {
-    background: #ccbbbb;/* #d0d0b4; */
+    background: #d0d0b4;
     font-size: 82.5%;
     font-family: sans-serif;
 }
@@ -104,7 +104,6 @@ a {
     margin: 0 auto;
 }
 #header .menu li {
-    /* width: 8em; */
     float: left;
     margin: 0;
     padding: 0 1em;
@@ -120,12 +119,22 @@ a {
     width: 100%;
 }
 #header .menu li.current_page_item,
-#header .menu li/* .page_item */:hover,
+#header .menu li:hover,
 #header .menu a:hover {
     background-color: #eb3f01;
-/* } */
-/* #header .menu li/\* .page_item *\/:hover, */
-/* #header .menu a:hover { */
-    text-shadow: 1px 1px 0 #333;
-    /* text-decoration: underline; */
+\    text-shadow: 1px 1px 0 #333;
+}
+
+
+#primary {
+    float: right;
+    width: 24%;
+}
+#primary li {
+    list-style: none;
+}
+
+#container {
+    float: left;
+    width: 74%;
 }
