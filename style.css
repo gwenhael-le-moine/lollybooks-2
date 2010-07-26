@@ -8,6 +8,124 @@ Template: twentyten
 Version: 0.0.1
 */
 
-@import url("../twentyten/style.css");
+/* @import url("../twentyten/style.css"); */
+@import url("../lollybooks-2/invisibleframework.min.css");
 
+/* .menu-item { */
+/*     float: left; */
+/*     list-style: none; */
+/* } */
 
+body {
+    background: #ccbbbb;/* #d0d0b4; */
+    font-size: 82.5%;
+    font-family: sans-serif;
+}
+img {
+    border: none;
+}
+a {
+    color: #edf;
+}
+
+#header {
+    background: #eb3f01;
+}
+#header #branding {
+    height: 150px;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#header img#logo {
+    width: 355px;
+    height: 92px;
+    float: left;
+    position: relative;
+    top: 14px;
+    left: 22px;
+    border: none;
+}
+#header img#logo:hover {
+    background-color: #fc4f12;
+}
+
+#header #subtitle {
+    float: left;
+    width: 491px;
+    height: 122px;
+    padding: 17px 0 11px 94px;
+    text-align: left;
+}
+#header #subtitle #icons {
+    border-bottom: 2px #fff solid;
+}
+#header #subtitle #icons img {
+    padding: 0;
+    margin-right: 3px;
+}
+#header #subtitle #icons img#lollypops {
+    margin-right: 0;
+}
+#header #subtitle #adress {
+    padding-top: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 130%;
+    font-family: sans-serif;
+}
+
+#header #access .skip-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 50%;
+}
+#header #access .skip-link a {
+    color: #eb3f01;
+}
+
+#header .menu-header {
+    background: #fc4f12;
+    height: 1.5em;
+    width: 100%;
+}
+#header .menu {
+    float: left;
+    margin: 0;
+    /* background: #fc4f12; */
+    /* height: 1.5em; */
+    /* width: 100%; */
+    font-size: 115%;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 940px;
+    margin: 0 auto;
+}
+#header .menu li {
+    /* width: 8em; */
+    float: left;
+    margin: 0;
+    padding: 0 1em;
+    border-left: 1px #fc4f12 solid;
+    border-right: 1px #fc4f12 solid;
+    background-color: #fc4f12;
+    list-style: none;
+}
+#header .menu li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+}
+#header .menu li.current_page_item,
+#header .menu li/* .page_item */:hover,
+#header .menu a:hover {
+    background-color: #eb3f01;
+/* } */
+/* #header .menu li/\* .page_item *\/:hover, */
+/* #header .menu a:hover { */
+    text-shadow: 1px 1px 0 #333;
+    /* text-decoration: underline; */
+}
