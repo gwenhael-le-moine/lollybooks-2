@@ -5,3 +5,6 @@
 
 * interesting
 ** http://www.cozmoslabs.com/2008/09/07/use-wordpress-as-a-cms-with-thematic-part1/
+
+* multilingual
+** http://www.cozmoslabs.com/2009/10/08/multilingual-wordpress-wpml-review/
