@@ -1,3 +1,6 @@
+* HTML5
+** http://blog.studio12designs.com/2010/05/22/html5-tutorial-bulletproof/
+
 * about child themes
 ** http://codex.wordpress.org/Child_Themes
 ** http://aaron.jorb.in/blog/2010/04/introducing-thirty-ten/
