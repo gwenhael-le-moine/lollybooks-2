@@ -9,8 +9,7 @@ header #logo {  }
 header #icons {  }
 header #address {  }
 /** header menu */
-header menu { width: 100%;
-              height: 1.5em;
+header menu { height: 1.5em;
             }
 header menu li { float: left;
                  list-style: none;
