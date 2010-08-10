@@ -66,5 +66,18 @@ footer { width: 100%;
 
 /** latest articles section */
 #latest-articles article { width: 466px; /* 48.6%; */
-                                   height: 200px;
-                                   margin-top: 14px; }
+                           height: 300px;
+                           margin-top: 14px; }
+#latest-articles article header { width: 460px;
+                                  height: 14px;
+                                  padding: 3px; }
+#latest-articles article footer { width: 460px;
+                                  height: 14px;
+                                  padding: 3px;
+                                  margin-top: 0; }
+#latest-articles article footer abbr { float: left; }
+#latest-articles article footer address { float: right; }
+#latest-articles article .entry-content { float: left;
+                                          height: 256px;
+                                          margin-top: 5px;
+                                          overflow-x: hidden; }
