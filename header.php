@@ -45,6 +45,6 @@
       </header>
 		<nav>
 			<menu>
-				<?php wp_list_pages('title_li='); ?>
+				<?php wp_list_pages('title_li=&depth=1'); ?>
 			</menu>
 		</nav>
