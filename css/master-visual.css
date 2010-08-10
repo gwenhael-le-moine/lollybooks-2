@@ -6,7 +6,13 @@ header, nav, footer { background: #eb3f01;
                       color: white;
                       text-align: left;
                       font-weight: bold; }
-header, nav { /* shadows */
+header { /* shadows */
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='gray'); /* IE */
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='gray')"; /* IE8 */ }
+nav { /* shadows */
     -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
