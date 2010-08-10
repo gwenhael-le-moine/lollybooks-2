@@ -12,11 +12,11 @@ header, nav { /* shadows */
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=5, Color='gray'); /* IE */
     -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=5, Color='gray')"; /* IE8 */ }
-header { /* gradient */
-    background-image: -moz-linear-gradient(top, #eb3f01, #fe6f34); /* FF3.6 */
-    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eb3f01),color-stop(1, #fc4f12)); /* Saf4+, Chrome */
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#eb3f01', EndColorStr='#fc4f12'); /* IE6,IE7 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eb3f01', EndColorStr='#fc4f12')"; /* IE8 */ }
+/* header { /\* gradient *\/ */
+/*     background-image: -moz-linear-gradient(top, #eb3f01, #fe6f34); /\* FF3.6 *\/ */
+/*     background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eb3f01),color-stop(1, #fc4f12)); /\* Saf4+, Chrome *\/ */
+/*     filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#eb3f01', EndColorStr='#fc4f12'); /\* IE6,IE7 *\/ */
+/*     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eb3f01', EndColorStr='#fc4f12')"; /\* IE8 *\/ } */
 
 header #logo:hover { background: #fc4f12; }
 header #icons { border-bottom: 2px solid #fff; }
