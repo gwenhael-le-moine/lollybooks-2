@@ -11,8 +11,8 @@ Version: 0.0.1
 @import url("css/html5.css");
 @import url("css/reset-html5.css");
 
-/* @import url("css/master-placement.css"); */
-/* @import url("css/master-visual.css"); */
+@import url("css/master-placement.css");
+@import url("css/master-visual.css");
 
 /* /\* == BASICS == *\/ */
 
