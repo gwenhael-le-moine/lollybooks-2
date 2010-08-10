@@ -35,13 +35,13 @@ nav menu li a:active { padding-top: 1px; }
 /* footer */
 footer { width: 100%;
          float: left;
-         margin-top: 1em;
+         margin-top: 14px;
          padding: 3px; }
 
 /* homepage */
 #featured section, #featured aside, .latest-article { padding: 3px; }
 /** featured section */
-#featured #calendar, #featured #radio, #featured #event { margin-top: 1em; }
+#featured #calendar, #featured #radio, #featured #event { margin-top: 14px; }
 #featured #event { height: 310px;
                    width: 750px; /* 77%; */
                    float: left; }
@@ -49,8 +49,8 @@ footer { width: 100%;
                                         height: 145px;
                                         float: right; }
 /** latest articles section */
-#latest-articles .latest-article { width: 48.6%;
+#latest-articles .latest-article { width: 466px; /* 48.6%; */
                                    height: 200px;
-                                   margin-top: 1em; }
+                                   margin-top: 14px; }
 #latest-articles #latest-cat1, #latest-articles #latest-cat3 { float: left; }
 #latest-articles #latest-cat2, #latest-articles #latest-cat4 { float: right; }
