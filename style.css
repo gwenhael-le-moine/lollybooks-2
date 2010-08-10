@@ -1,12 +1,13 @@
 /*
-Theme Name: Lollybooks
+Theme Name: Lollybooks2
 Theme URI: http://lollybooks.com
-Description: Lollybooks Café Theme
+Description: Lollybooks Café Theme, Second Edition
 Author: Gwenhael Le Moine
 Author URI: http://lollybooks.com
 Version: 0.0.1
 */
 
+/* import MUST happen BEFORE any rule */
 @import url("css/master-placement.css");
 @import url("css/master-visual.css");
 
