@@ -66,8 +66,28 @@ footer  { /* round corners */
                    -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
                    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
                    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=3, Color='gray'); /* IE */
-                   -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=3, Color='gray')"; /* IE8 */
-                 }
+                   -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=3, Color='gray')"; /* IE8 */ }
+#services { background: #fc4f12;
+            color: white;
+            text-align: left;
+            font-weight: bold;
+            /* shadows */
+            -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+            -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+            filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='gray'); /* IE */
+            -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='gray')"; /* IE8 */ }
+#services menu { background: #fc4f12;
+                 font-size: 115%; }
+#services menu li { list-style: none;
+                    padding: 0 1em;
+                    margin: 0; }
+#services menu li a { color: #fff;
+                      text-decoration: none; }
+#services menu li:hover, #services menu li a:hover { background: #eb3f01;
+                                                     /* text shadows */
+                                                     text-shadow: 1px 1px 0 #992A00; }
+
 .latest-article, #featured aside {
     /* shadows */
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -75,7 +95,7 @@ footer  { /* round corners */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='gray'); /* IE */
     -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='gray')"; /* IE8 */ }
-#featured #event, #featured aside, .latest-article {
+#featured #event, #featured aside, #services, .latest-article {
     /* round corners */
     -moz-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
