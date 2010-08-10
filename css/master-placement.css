@@ -83,11 +83,10 @@ footer { width: 100%;
 #latest-articles header { float: left;
                           font-size: 130%;
                           height: 18px;
-                          margin-left: 15px;
                           margin-top: 14px;
                           padding: 3px;
                           text-align: center;
-                          width: 930px; }
+                          width: 953px; }
 #latest-articles article { width: 466px; /* 48.6%; */
                            height: 300px;
                            margin-top: 14px; }
