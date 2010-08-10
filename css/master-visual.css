@@ -2,7 +2,7 @@ body { font-family: sans-serif;
        font-size: 82.5%;
      }
 
-header, footer { background: #eb3f01;
+header, nav, footer { background: #eb3f01;
                  color: white;
                  text-align: left;
                  font-weight: bold;
@@ -28,16 +28,16 @@ header #logo:hover { background: #fc4f12; }
 header #icons { border-bottom: 2px solid #fff; }
 header #address { font-size: 130%; }
 
-header menu { background: #fc4f12;
+nav menu { background: #fc4f12;
               font-size: 115%; }
-header menu li { list-style: none;
+nav menu li { list-style: none;
                  padding: 0 1em;
                  margin: 0;
                  border-left: 1px solid #fc4f12;
                  border-right: 1px solid #fc4f12; }
-header menu li a { color: #fff;
+nav menu li a { color: #fff;
                    text-decoration: none; }
-header menu li:hover, header menu li a:hover { background: #eb3f01;
+nav menu li:hover, nav menu li a:hover { background: #eb3f01;
                                                /* text shadows */
                                                text-shadow: 1px 1px 0 #992A00; }
 

@@ -3,8 +3,11 @@
 
 /* header */
 header { width: 100%;
-         height: 165px;
+         height: 140px;
          position: relative; }
+nav { width: 100%;
+      height: 23px;
+      position: relative; }
 header #logo { width: 355px;
                height: 92px;
                float: left;
@@ -18,16 +21,18 @@ header #subtitle { float: left;
                    padding: 17px 0 11px 94px; }
 header #icons {  }
 header #address { padding-top: 6px; }
-/** header menu */
-header menu { width: 100%;
-              height: 22px;
-              line-height: 22px;
-              padding: 0;
-              margin: 0;
-              position: absolute;
-              bottom: 0; }
-header menu li { float: right; }
-header menu li a:active { padding-top: 1px; }
+
+/** nav menu */
+nav menu { width: 100%;
+           height: 22px;
+           line-height: 22px;
+           padding: 0;
+           margin: 0;
+           position: absolute;
+           bottom: 0; }
+nav menu li { float: right; }
+nav menu li a:active { padding-top: 1px; }
+
 /* footer */
 footer { width: 100%;
          float: left;
