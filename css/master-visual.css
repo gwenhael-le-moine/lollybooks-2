@@ -42,7 +42,7 @@ nav menu li:hover, nav menu li a:hover { background: #eb3f01;
                                                text-shadow: 1px 1px 0 #992A00; }
 
 /* homepage */
-#featured {
+#featured #event { background: #ff9f67;
     /* shadows */
     -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
@@ -55,7 +55,7 @@ nav menu li:hover, nav menu li a:hover { background: #eb3f01;
 /* -webkit-border-top-left-radius: 40px; */
 /* -webkit-border-top-right-radius: 40px; */
 }
-.latest-article {
+.latest-article, #featured aside {
     /* shadows */
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -69,4 +69,3 @@ nav menu li:hover, nav menu li a:hover { background: #eb3f01;
 /* -webkit-border-top-right-radius: 40px; */
 }
 
-#featured #event { background: #ff9f67; }

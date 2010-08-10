@@ -40,11 +40,13 @@ footer { width: 100%;
 
 /* homepage */
 /** featured section */
-#featured { width: 100%;
-            margin-top: 1em;
-          }
-#featured, #featured #event { height: 310px; }
-#featured #event { width: 70%;
+/* #featured { width: 100%; */
+/*             margin-top: 1em; */
+/*           } */
+/* #featured,  */
+#featured #calendar, #featured #radio, #featured #event { margin-top: 1em; }
+#featured #event { height: 310px;
+                   width: 74%;
                    float: left; }
 #featured #calendar, #featured #radio { width: 25%;
                                         height: 150px;
