@@ -95,6 +95,7 @@ footer { width: 100%;
 #latest-articles article header { width: 460px;
                                   height: 14px;
                                   margin-left: 0;
+                                  margin-top: 0;
                                   padding: 3px; }
 #latest-articles article footer { width: 460px;
                                   height: 12px;
