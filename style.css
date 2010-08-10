@@ -8,6 +8,9 @@ Version: 0.0.1
 */
 
 /* import MUST happen BEFORE any rule */
+@import url("css/html5.css");
+@import url("css/reset-html5.css");
+
 @import url("css/master-placement.css");
 @import url("css/master-visual.css");
 
