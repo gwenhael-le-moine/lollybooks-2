@@ -42,13 +42,26 @@ nav menu li:hover, nav menu li a:hover { background: #eb3f01;
                                                text-shadow: 1px 1px 0 #992A00; }
 
 /* homepage */
-#featured, #latest-articles {
+#featured {
     /* shadows */
-    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=5, Color='gray'); /* IE */
-    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=5, Color='gray')"; /* IE8 */
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=3, Color='gray'); /* IE */
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=3, Color='gray')"; /* IE8 */
+/* round corners */
+/* -moz-border-radius: 40px 40px 0 0; */
+/* border-radius: 40px 40px 0 0; */
+/* -webkit-border-top-left-radius: 40px; */
+/* -webkit-border-top-right-radius: 40px; */
+}
+.latest-article {
+    /* shadows */
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='gray'); /* IE */
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='gray')"; /* IE8 */
 /* round corners */
 /* -moz-border-radius: 40px 40px 0 0; */
 /* border-radius: 40px 40px 0 0; */
