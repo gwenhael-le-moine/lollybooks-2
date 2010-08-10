@@ -44,7 +44,7 @@ footer { width: 100%;
                    width: 74%;
                    float: left; }
 #featured #calendar, #featured #radio { width: 25%;
-                                        height: 150px;
+                                        height: 148px;
                                         float: right; }
 /** latest articles section */
 #latest-articles .latest-article { width: 49.2%;
