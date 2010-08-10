@@ -148,7 +148,13 @@ footer  { /* round corners */
                                           border-radius: 0 0 5px 5px;
                                           -webkit-border-bottom-left-radius: 5px;
                                           -webkit-border-bottom-right-radius: 5px; }
-
+#latest-articles header { /* round corners */
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px; }
 #latest-articles article aside { text-align: right;
                                  font-weight: bold; }
 #latest-articles article header { /* round corners */
