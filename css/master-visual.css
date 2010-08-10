@@ -1,6 +1,8 @@
-body { font-family: sans-serif;
-       font-size: 82.5%;
-     }
+body { background: #ddd;
+       font-family: sans-serif;
+       font-size: 82.5%; }
+
+#content { background: #f33; }
 
 header, nav, footer { background: #eb3f01;
                       color: white;
@@ -60,6 +62,7 @@ footer  { /* round corners */
     -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='gray')"; /* IE8 */ }
 
 /* homepage */
+#featured #event, #featured aside, #latest-articles article, #featured .entry-content { background: #fff; }
 #featured #event { /* background: #ff9f67; */
     /* shadows */
     -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
@@ -136,8 +139,7 @@ footer  { /* round corners */
                           border-radius: 0 0 0 0;
                           -webkit-border-top-left-radius: 0;
                           -webkit-border-top-right-radius: 0; }
-#featured #event .entry-content { background: #eee;
-                                  border: 3px solid #fc4f12;
+#featured #event .entry-content { border: 3px solid #fc4f12;
                                   padding: 2px;
                                   /* shadows */
                                   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -179,8 +181,7 @@ footer  { /* round corners */
                                   border-radius: 0 0 0 0;
                                   -webkit-border-top-left-radius: 0;
                                   -webkit-border-top-right-radius: 0; }
-#latest-articles article .entry-content { background: #eee;
-                                          border: 3px solid #fc4f12;
+#latest-articles article .entry-content { border: 3px solid #fc4f12;
                                           padding: 2px;
                                           /* shadows */
                                           -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
