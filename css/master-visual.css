@@ -1,4 +1,4 @@
-body { background: #ddd;
+body { background: #333;/* #ddd; */
        font-family: sans-serif;
        font-size: 82.5%; }
 
@@ -48,10 +48,12 @@ nav menu li:hover, nav menu li a:hover { background: #eb3f01;
                                          text-shadow: 1px 1px 0 #992A00; }
 
 footer  { /* round corners */
-    -moz-border-radius: 5px 5px 0 0;
-    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 30px 30px;
+    border-radius: 5px 5px 30px 30px;
     -webkit-border-top-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
     /* shadows */
     -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
@@ -60,7 +62,8 @@ footer  { /* round corners */
     -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='gray')"; /* IE8 */ }
 
 /* homepage */
-#featured #event, #featured aside, #latest-articles article, #featured .entry-content { background: #fff; }
+#featured #event, #featured aside, #latest-articles article { background: #ddd;/* #fff; */ }
+#featured .entry-content, #latest-articles article .entry-content { background: #fff; }
 #featured #event { /* background: #ff9f67; */
     /* shadows */
     -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
@@ -91,9 +94,9 @@ footer  { /* round corners */
 
 #latest-articles article, #featured aside {
     /* shadows */
-    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
     filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='gray'); /* IE */
     -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='gray')"; /* IE8 */ }
 #featured #event, #featured aside, #services, #latest-articles article {
