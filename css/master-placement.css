@@ -39,7 +39,7 @@ nav menu li { float: right; }
 nav menu li a:active { padding-top: 1px; }
 
 /* footer */
-footer { width: 100%;
+footer { width: 955px;
          float: left;
          margin-top: 14px;
          padding: 3px; }
