@@ -64,8 +64,7 @@ footer  { /* round corners */
 /* homepage */
 #featured #event, #featured aside, #latest-articles article { background: #ddd;/* #fff; */ }
 #featured .entry-content, #latest-articles article .entry-content { background: #efe; }
-#featured #event { /* background: #ff9f67; */
-    /* shadows */
+#featured #event { /* shadows */
     -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
