@@ -82,6 +82,11 @@ footer { width: 955px;
             float: left;
             margin-top: 14px;
             padding: 3px; }
+#services h1 { float: left;
+               width: 0; }
+#services article { height: 95px;
+                    width: 148px;
+                    float: left; }
 /* #services menu { line-height: 22px; } */
 /* #services menu li { float: right; } */
 /* #services menu li a:active { padding-top: 1px; } */

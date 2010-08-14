@@ -163,11 +163,32 @@
       
       <aside id="services">
         <h1>SERVICES</h1>
-        <menu>
-          <li><a href="#">Room</a></li>
-          <li><a href="#">Film</a></li>
-          <li><a href="#">???</a></li>
-        </menu>
+        <!-- list posts category 'homepage_services' -->
+        <article class="left">
+		  <div class="entry-content">
+             <a href="#">image text</a>
+		  </div><!-- /.entry-content -->
+        </article>
+        <article class="left">
+		  <div class="entry-content">
+             <a href="#">image text</a>
+		  </div><!-- /.entry-content -->
+        </article>
+        <article class="left">
+		  <div class="entry-content">
+             <a href="#">image text</a>
+		  </div><!-- /.entry-content -->
+        </article>
+        <article class="left">
+		  <div class="entry-content">
+             <a href="#">image text</a>
+		  </div><!-- /.entry-content -->
+        </article>
+        <article class="left">
+		  <div class="entry-content">
+             <a href="#">image text</a>
+		  </div><!-- /.entry-content -->
+        </article>
       </aside>
       
       <section id="latest-articles">
