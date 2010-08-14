@@ -58,7 +58,6 @@ footer { width: 955px;
 /** featured section */
 #featured #calendar, #featured #radio, #featured #event { margin-top: 14px; }
 #featured #calendar, #featured #radio { width: 185px; /* 19%; */
-                                        height: 145px;
                                         float: right; }
 #featured #calendar { height: 168px; }
 #featured #radio { height: 122px; }
@@ -83,18 +82,20 @@ footer { width: 955px;
 
 /** services */
 #services { width: 760px;
-            height: 100px;
             margin-left: 100px;
             float: left;
             margin-top: 14px;
-            padding: 3px; }
+            padding-left: 3px;
+            padding-right: 3px;
+            padding-bottom: 3px; }
 #services h1 { float: left;
                width: 3px; }
 #services article { height: 95px;
                     width: 140px;
                     margin: 0 2px;
                     padding: 2px;
-                    float: left; }
+                    float: left;
+                    margin-top: 3px;}
 /* #services menu { line-height: 22px; } */
 /* #services menu li { float: right; } */
 /* #services menu li a:active { padding-top: 1px; } */
