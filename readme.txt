@@ -14,4 +14,4 @@
 *** Logo
     latest image tagged 'radio'
 *** mp3
-    latest mp3 named '*radio*online*.mp3'
+    latest mp3 tagged 'radio'
