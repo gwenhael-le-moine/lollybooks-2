@@ -11,13 +11,13 @@
         <article id="event">
           <aside>Catégorie Bla</aside>
           <?php
-          $latest_event = get_posts('numberposts=1&category_name=lollybooks-cafe&orderby=date');
-setup_postdata( $latest_event[0] );
+          query_posts('showposts=1&category_name=lollybooks-cafe');
+while (have_posts()) : the_post();
           ?>
           <header>
           <h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permalink to this POST TITLE"><?php the_title(); ?></a></h2>
 		  </header>
-
+<?php endwhile; ?>
 		  <footer class="post-info">
 			<abbr class="published" title="2005-10-10T14:07:00-07:00"><!-- YYYYMMDDThh:mm:ss+ZZZZ -->
 			  10th October 2005
