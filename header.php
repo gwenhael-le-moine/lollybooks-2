@@ -49,3 +49,5 @@
 				<!-- ?php wp_list_pages('title_li=&depth=1'); ? -->
 			</menu>
 		</nav>
+
+ <?php dimox_breadcrumbs(); ?>

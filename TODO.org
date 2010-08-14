@@ -32,13 +32,14 @@
 | list of sub-pages      |                                                                              |
 | (highlight active one) | content..................................................................... |
 | (if any)               |                                                                              |
+
 *** dynamic page (static + list of associated posts on the right)
 | breadcrumbs            |                                                             |                 |
 |------------------------+-------------------------------------------------------------+-----------------|
 | list of sub-pages      |                                                             | * list          |
 | (highlight active one) | content.................................................... | * of associated |
 | (if any)               |                                                             | * posts         |
-|                        |                                                             |                 |
+
 *** (sub-page?)
 
 ** Bandeau SERVICES
