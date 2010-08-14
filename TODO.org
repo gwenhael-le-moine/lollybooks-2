@@ -6,7 +6,7 @@
 *** TODO archives.php
 *** TODO comments.php
 *** TODO footer.php
-*** TODO functions.php
+*** DOING functions.php
 *** DONE header.php
     CLOSED: [2010-08-14 sam. 10:53]
 *** TODO image.php
@@ -16,7 +16,8 @@
 *** TODO page.php
 *** TODO search.php
 *** TODO searchform.php
-*** TODO sidebar.php
+*** DONE sidebar.php
+    CLOSED: [2010-08-14 sam. 12:22]
 *** TODO single.php
 
 ** DONE breadcrumbs
@@ -44,7 +45,8 @@
 
 *** (sub-page?)
 
-** Bandeau SERVICES
+** DONE Bandeau SERVICES
+   CLOSED: [2010-08-14 sam. 12:23]
 | S |       |       |       |       |       |
 | E | image | image | image | image | image |
 | R |       |       |       |       |       |
