@@ -49,6 +49,7 @@ footer { width: 955px;
          margin-top: 14px;
          padding: 3px; }
 
+#crumbs { margin-top: 3px; }
 /* homepage */
 #featured section, #featured aside, #latest-articles article { padding: 3px; }
 /** featured section */

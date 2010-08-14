@@ -7,7 +7,8 @@
 *** TODO comments.php
 *** TODO footer.php
 *** TODO functions.php
-*** DOING header.php
+*** DONE header.php
+    CLOSED: [2010-08-14 sam. 10:53]
 *** TODO image.php
 *** TODO index.php
 *** TODO links.php
@@ -18,7 +19,8 @@
 *** TODO sidebar.php
 *** TODO single.php
 
-** breadcrumbs
+** DONE breadcrumbs
+   CLOSED: [2010-08-14 sam. 10:52]
 
 ** Radio widget
 *** 1 logo
