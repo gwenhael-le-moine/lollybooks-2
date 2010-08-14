@@ -11,44 +11,29 @@
         <article id="event">
           <aside>Catégorie Bla</aside>
           <?php
-          query_posts('showposts=1&category_name=lollybooks-cafe');
+          $events_category = 'lollybooks-cafe';
+          query_posts('showposts=1&category_name=' . $events_category);
 while (have_posts()) : the_post();
           ?>
           <header>
           <h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permalink to this POST TITLE"><?php the_title(); ?></a></h2>
 		  </header>
-<?php endwhile; ?>
+          
 		  <footer class="post-info">
 			<abbr class="published" title="2005-10-10T14:07:00-07:00"><!-- YYYYMMDDThh:mm:ss+ZZZZ -->
-			  10th October 2005
+   <?php the_time( 'l, F jS, Y' ); ?>
 			</abbr>
 
 			<address class="vcard author">
-			  By <a class="url fn" href="#">Enrique Ramírez</a>
+   By <a class="url fn" href="#"><?php the_author(); ?></a>
 
 			</address>
 		  </footer><!-- /.post-info -->
 
 		  <div class="entry-content">
-			<p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada tellus.
-            </p>
-			<p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada tellus.
-            </p>
-			<p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada tellus.
-            </p>
-			<p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada tellus.
-            </p>
-			<p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada tellus.
-            </p>
-			<p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada tellus.
-            </p>
+   <?php the_content(); ?>
 		  </div><!-- /.entry-content -->
+<?php endwhile; ?>
         </article>
 
           <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar( 'homepage' ) ) : // begin homepage sidebar widgets
