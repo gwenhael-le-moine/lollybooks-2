@@ -62,8 +62,9 @@ footer { width: 955px;
 #featured .EC_Widget_display { height: 168px; }
 #featured .widget_lollybooks_radio { height: 122px;
                                      position: relative; }
-#featured .widget_lollybooks_radio span { position: absolute;
-                                          bottom: 1px; }
+#featured .widget_lollybooks_radio a { position: absolute;
+                                       bottom: 1px;
+                                       left: 5px; }
 
 #featured #event { height: 310px;
                    width: 750px; /* 77%; */
