@@ -66,7 +66,7 @@ footer { width: 955px;
 #featured #event footer abbr { float: left; }
 #featured #event footer address { float: right; }
 #featured #event .entry-content { float: left;
-                                  height: 245px;
+                                  height: 243px;
                                   overflow-x: hidden; }
 
 /** services */
@@ -101,5 +101,5 @@ footer { width: 955px;
 #latest-articles article footer abbr { float: left; }
 #latest-articles article footer address { float: right; }
 #latest-articles article .entry-content { float: left;
-                                          height: 241px;
+                                          height: 239px;
                                           overflow-x: hidden; }
