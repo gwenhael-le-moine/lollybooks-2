@@ -138,4 +138,9 @@ function last_post_from_cat( $cat ) {
    echo '</div>';
    endwhile;
 }
+
+function get_cat_name_by_slug( $slug ) {
+   $idObj = get_category_by_slug( $slug ); 
+   return $idObj->name;
+}
 ?>
