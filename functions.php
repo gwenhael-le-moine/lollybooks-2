@@ -27,7 +27,7 @@ function dimox_breadcrumbs() {
    $currentBefore = '<span class="current">';
    $currentAfter = '</span>';
  
-   if ( !is_home() && !is_front_page() || is_paged() ) {
+   /* if ( !is_home() && !is_front_page() || is_paged() ) { */
  
       echo '<div id="crumbs">';
  
@@ -109,6 +109,6 @@ function dimox_breadcrumbs() {
  
       echo '</div>';
  
-   }
+   /* } */
 }
 ?>
