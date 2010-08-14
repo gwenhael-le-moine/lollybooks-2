@@ -70,6 +70,9 @@ footer  { /* round corners */
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
     filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=3, Color='gray'); /* IE */
     -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=3, Color='gray')"; /* IE8 */ }
+
+#featured .widget_lollybooks_radio { text-align: center; }
+
 #services { background: #fc4f12;
             color: white;
             text-align: left;

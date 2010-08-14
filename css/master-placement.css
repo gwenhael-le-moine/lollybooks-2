@@ -60,8 +60,10 @@ footer { width: 955px;
 #featured .widget { width: 185px; /* 19%; */
                                         float: right; }
 #featured .EC_Widget_display { height: 168px; }
-#featured .widget_lollybooks_radio { height: 122px; }
-#featured .widget_lollybooks_radio #playradio { height: 108px; }
+#featured .widget_lollybooks_radio { height: 122px;
+                                     position: relative; }
+#featured .widget_lollybooks_radio span { position: absolute;
+                                          bottom: 1px; }
 
 #featured #event { height: 310px;
                    width: 750px; /* 77%; */

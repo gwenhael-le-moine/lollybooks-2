@@ -9,3 +9,9 @@
 ** How to add a Service link on the homepage?
 *** Upload an image with a media_tag 'service' and a description
 *** //TODO: define image size and text length
+
+** Radio widget
+*** Logo
+    latest image tagged 'radio'
+*** mp3
+    latest mp3 named '*radio*online*.mp3'
