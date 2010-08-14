@@ -48,20 +48,11 @@ class LollybooksRadioWidget extends WP_Widget
         # only display radio mp3
         foreach( (array) $mp3s as $attachment_id => $attachment )
         {
-           if ( ! preg_match("/radio.*online/i", wp_get_attachment_url( $attachment_id ) ) ) {
-              unset( $mp3s[ $attachment_id ] );
+           if ( preg_match("/radio.*online/i", wp_get_attachment_url( $attachment_id ) ) ) {
+              echo "<a href='".wp_get_attachment_url( $attachment_id )."'>Listen</a><br />";
+              break;
            }
         }
-
-        $counter=sizeof( $mp3s )+1;
-
-        echo "<div id=\"playradio\" style=\"height:".$height.";overflow-y:auto;overflow-x:hidden;\">";
-        foreach( (array) $mp3s as $attachment_id => $attachment )
-        {
-           $counter--;
-           echo "<a href='".wp_get_attachment_url( $attachment_id )."'>Volume " .$counter. "</a><br />";
-        }
-        echo "</div>";
 
         # After the widget
         echo $after_widget;
