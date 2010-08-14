@@ -28,14 +28,14 @@
 *** 1 logo
 *** play only latest mp3
 
-** code specialized templates
-*** homepage
-*** static page
+** TODO code specialized templates
+*** DOING homepage
+*** TODO static page
 | list of sub-pages      |                                                                              |
 | (highlight active one) | content..................................................................... |
 | (if any)               |                                                                              |
 
-*** dynamic page (static + list of associated posts on the right)
+*** TODO dynamic page (static + list of associated posts on the right)
 | list of sub-pages      |                                                             | * list          |
 | (highlight active one) | content.................................................... | * of associated |
 | (if any)               |                                                             | * posts         |

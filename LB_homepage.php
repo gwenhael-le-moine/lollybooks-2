@@ -10,8 +10,12 @@
       <section id="featured">
         <article id="event">
           <aside>Catégorie Bla</aside>
+          <?php
+          $latest_event = get_posts('numberposts=1&category_name=lollybooks-cafe&orderby=date');
+setup_postdata( $latest_event[0] );
+          ?>
           <header>
-			<h2 class="entry-title"><a href="#" rel="bookmark" title="Permalink to this POST TITLE">This be the title</a></h2>
+          <h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permalink to this POST TITLE"><?php the_title(); ?></a></h2>
 		  </header>
 
 		  <footer class="post-info">
