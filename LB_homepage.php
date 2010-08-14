@@ -49,38 +49,27 @@
 
           <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar( 'homepage' ) ) : // begin homepage sidebar widgets
           ?>
+          <!-- There is no default content -->
           <?php endif; // end homepage sidebar widgets
           ?>
-      </section>
-      
-      <aside id="services">
-        <h1>SERVICES</h1>
-        <!-- list posts category 'homepage_services' -->
-        <article class="left">
-		  <div class="entry-content">
-             <a href="#">image text</a>
-		  </div><!-- /.entry-content -->
-        </article>
-        <article class="left">
-		  <div class="entry-content">
-             <a href="#">image text</a>
-		  </div><!-- /.entry-content -->
-        </article>
-        <article class="left">
-		  <div class="entry-content">
-             <a href="#">image text</a>
-		  </div><!-- /.entry-content -->
-        </article>
-        <article class="left">
-		  <div class="entry-content">
-             <a href="#">image text</a>
-		  </div><!-- /.entry-content -->
-        </article>
-        <article class="left">
-		  <div class="entry-content">
-             <a href="#">image text</a>
-		  </div><!-- /.entry-content -->
-        </article>
+          </section>
+          
+          <aside id="services">
+          <h1>SERVICES</h1>
+          <!-- list posts category 'homepage_services' -->
+          <?php 
+          $media_items = get_attachments_by_media_tags( 'media_tags=service' );
+if ($media_items) {
+   foreach ($media_items as $media_item) {
+        echo '<a href="#">';
+        echo '<img src="' . wp_get_attachment_url($media_item->ID) . '" />';
+        echo '<p>';
+        if ( !empty( $media_item->post_excerpt ) ) echo $media_item->post_excerpt;
+        echo '</p>';
+        echo '</a>';
+   }
+}
+?>
       </aside>
       
       <section id="latest-articles">

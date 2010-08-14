@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Lollybooks Radio
- * Version: 1.0
+ * Version: 2.0
  * Plugin URI: http://lollybooks.com
  * Description: Lollybooks online radio widget
  * Author: Gwenhael Le Moine

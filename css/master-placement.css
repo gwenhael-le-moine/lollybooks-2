@@ -61,6 +61,7 @@ footer { width: 955px;
                                         float: right; }
 #featured .EC_Widget_display { height: 168px; }
 #featured .widget_lollybooks_radio { height: 122px; }
+#featured .widget_lollybooks_radio #playradio { height: 108px; }
 
 #featured #event { height: 310px;
                    width: 750px; /* 77%; */
@@ -90,12 +91,15 @@ footer { width: 955px;
             padding-bottom: 3px; }
 #services h1 { float: left;
                width: 3px; }
-#services article { height: 95px;
-                    width: 140px;
-                    margin: 0 2px;
-                    padding: 2px;
-                    float: left;
-                    margin-top: 3px;}
+#services a { height: 95px;
+              width: 140px;
+              margin: 0 2px;
+              padding: 2px;
+              float: left;
+              margin-top: 3px;
+              position: relative; }
+#services a p { position: absolute;
+                bottom: 1px; }
 /* #services menu { line-height: 22px; } */
 /* #services menu li { float: right; } */
 /* #services menu li a:active { padding-top: 1px; } */

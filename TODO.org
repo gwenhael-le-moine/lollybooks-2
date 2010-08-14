@@ -23,7 +23,7 @@
 ** DONE breadcrumbs
    CLOSED: [2010-08-14 sam. 10:52]
 
-** Radio widget
+** DOING Radio widget
 *** 1 logo
 *** play only latest mp3
 
