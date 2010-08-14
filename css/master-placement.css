@@ -50,6 +50,9 @@ footer { width: 955px;
          padding: 3px; }
 
 #crumbs { margin-top: 3px; }
+
+
+
 /* homepage */
 #featured section, #featured aside, #latest-articles article { padding: 3px; }
 /** featured section */
@@ -57,6 +60,9 @@ footer { width: 955px;
 #featured #calendar, #featured #radio { width: 185px; /* 19%; */
                                         height: 145px;
                                         float: right; }
+#featured #calendar { height: 168px; }
+#featured #radio { height: 122px; }
+
 #featured #event { height: 310px;
                    width: 750px; /* 77%; */
                    float: left;
@@ -83,9 +89,11 @@ footer { width: 955px;
             margin-top: 14px;
             padding: 3px; }
 #services h1 { float: left;
-               width: 0; }
+               width: 3px; }
 #services article { height: 95px;
-                    width: 148px;
+                    width: 140px;
+                    margin: 0 2px;
+                    padding: 2px;
                     float: left; }
 /* #services menu { line-height: 22px; } */
 /* #services menu li { float: right; } */
