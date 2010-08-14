@@ -13,29 +13,29 @@
           <?php last_post_from_cat( $cat_slug ); ?>
         </article>
 
-          <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar( 'homepage' ) ) : // begin homepage sidebar widgets
-          ?>
+       <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar( 'homepage' ) ) : // begin homepage sidebar widgets
+       ?>
           <!-- There is no default content -->
-          <?php endif; // end homepage sidebar widgets
-          ?>
-          </section>
+       <?php endif; // end homepage sidebar widgets
+       ?>
+       </section>
           
-          <aside id="services">
+       <aside id="services">
           <h1>SERVICES</h1>
           <!-- list posts category 'homepage_services' -->
           <?php 
           $media_items = get_attachments_by_media_tags( 'media_tags=service' );
-if ($media_items) {
-   foreach ($media_items as $media_item) {
-      echo '<a href="' . $media_item->post_title . '">'; // TODO: define exactly url
-        echo '<img src="' . wp_get_attachment_url($media_item->ID) . '" />';
-        echo '<p>';
-        if ( !empty( $media_item->post_excerpt ) ) echo $media_item->post_excerpt;
-        echo '</p>';
-        echo '</a>';
-   }
-}
-?>
+          if ($media_items) {
+             foreach ($media_items as $media_item) {
+                echo '<a href="' . $media_item->post_title . '">'; // TODO: define exactly url
+                echo '<img src="' . wp_get_attachment_url($media_item->ID) . '" />';
+                echo '<p>';
+                if ( !empty( $media_item->post_excerpt ) ) echo $media_item->post_excerpt;
+                echo '</p>';
+                echo '</a>';
+             }
+          }
+          ?>
       </aside>
       
       <section id="latest-articles">
