@@ -43,20 +43,16 @@ class LollybooksRadioWidget extends WP_Widget
         /*     echo $before_title . $title . $after_title; */
 
         # Make the Lollybooks Radio widget
-          $media_items = get_attachments_by_media_tags( 'media_tags=radio&media_types=png,jpg,gif' );
+          $media_items = get_attachments_by_media_tags( 'media_tags=radio&media_types=png,jpg,gif&numberposts=1' );
           if ($media_items) {
              echo '<img src="' . wp_get_attachment_url( $media_items[0]->ID ) . '" />';
           }
-        $mp3s =& get_children( 'post_type=attachment&post_mime_type=audio/mpeg&post_parent=null' );
 
-        # only display radio mp3
-        foreach( (array) $mp3s as $attachment_id => $attachment )
-        {
-           if ( preg_match("/radio.*online/i", wp_get_attachment_url( $attachment_id ) ) ) {
-              echo "<a href='".wp_get_attachment_url( $attachment_id )."'>Listen</a><br />";
-              break;
-           }
-        }
+          $mp3s = get_attachments_by_media_tags( 'media_tags=radio&post_mime_type=audio/mpeg&numberposts=1' );
+          if ($mp3s) {
+              echo "<a href='".wp_get_attachment_url( $mp3s[0]->ID )."'>Listen</a>";
+          }
+          else { echo 'nan rien'; }
 
         # After the widget
         echo $after_widget;
