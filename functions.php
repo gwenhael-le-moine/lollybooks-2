@@ -124,12 +124,11 @@ function last_post_from_cat( $cat ) {
    while (have_posts()) : the_post();
    echo '<header>';
    echo '<h2 class="entry-title"><a href="'.post_permalink().'" rel="bookmark">'.the_title( '', '', false ).'</a></h2>';
-   /* echo '<h2 class="entry-title"><a href="'.the_permalink().'" rel="bookmark" title="Permalink to this post">'.the_title().'</a></h2>'; */
    echo '</header>';
    echo '<footer class="post-info">';
-   echo '<abbr class="published" title="'.the_time( 'YYYYMMDDThh:mm:ss+ZZZZ' ).'">';
+   /* echo '<abbr class="published" title="'.the_time( 'YYYYMMDDThh:mm:ss+ZZZZ' ).'">'; */
    echo the_time( 'l, F jS, Y' );
-   echo '</abbr>';
+   /* echo '</abbr>'; */
    echo '<address class="vcard author">';
    echo 'By <a class="url fn" href="#">'.the_author().'</a>';
    echo '</address>';
