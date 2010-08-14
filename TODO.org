@@ -1,0 +1,53 @@
+* Theme
+** finalize CSS & HTML & JS
+** merge it in H5 WordPress theme
+*** TODO 404.php
+*** TODO archive.php
+*** TODO archives.php
+*** TODO comments.php
+*** TODO footer.php
+*** TODO functions.php
+*** DOING header.php
+*** TODO image.php
+*** TODO index.php
+*** TODO links.php
+*** TODO page-custom.php
+*** TODO page.php
+*** TODO search.php
+*** TODO searchform.php
+*** TODO sidebar.php
+*** TODO single.php
+
+** breadcrumbs
+
+** Radio widget
+*** 1 logo
+*** play only latest mp3
+
+** code specialized templates
+*** homepage
+*** static page
+| breadcrumbs            |                                                                              |
+|------------------------+------------------------------------------------------------------------------|
+| list of sub-pages      |                                                                              |
+| (highlight active one) | content..................................................................... |
+| (if any)               |                                                                              |
+*** dynamic page (static + list of associated posts on the right)
+| breadcrumbs            |                                                             |                 |
+|------------------------+-------------------------------------------------------------+-----------------|
+| list of sub-pages      |                                                             | * list          |
+| (highlight active one) | content.................................................... | * of associated |
+| (if any)               |                                                             | * posts         |
+|                        |                                                             |                 |
+*** (sub-page?)
+
+** Bandeau SERVICES
+| S |       |       |       |       |       |
+| E | image | image | image | image | image |
+| R |       |       |       |       |       |
+| V | ----- | ----- | ----- | ----- | ----- |
+| I |       |       |       |       |       |
+| C | text  | text  | text  | text  | text  |
+| E |       |       |       |       |       |
+| S |       |       |       |       |       |
+
