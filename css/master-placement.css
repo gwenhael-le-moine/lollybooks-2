@@ -1,6 +1,6 @@
 /* DEBUG vv */
-#content aside { display: none; }
-#content #featured aside { display: block; }
+/* #content aside { display: none; } */
+/* #content #featured aside { display: block; } */
 /* DEBUG ^^ */
 
 /* Utils */
@@ -77,13 +77,14 @@ footer { width: 955px;
 
 /** services */
 #services { width: 760px;
+            height: 100px;
             margin-left: 100px;
             float: left;
             margin-top: 14px;
             padding: 3px; }
-#services menu { line-height: 22px; }
-#services menu li { float: right; }
-#services menu li a:active { padding-top: 1px; }
+/* #services menu { line-height: 22px; } */
+/* #services menu li { float: right; } */
+/* #services menu li a:active { padding-top: 1px; } */
 
 /** latest articles section */
 #latest-articles header { float: left;

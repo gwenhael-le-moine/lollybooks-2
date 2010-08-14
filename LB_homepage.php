@@ -162,7 +162,7 @@
       </section>
       
       <aside id="services">
-        Book a...
+        <h1>SERVICES</h1>
         <menu>
           <li><a href="#">Room</a></li>
           <li><a href="#">Film</a></li>
