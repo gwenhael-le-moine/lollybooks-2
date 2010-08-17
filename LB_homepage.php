@@ -22,7 +22,6 @@
           
        <aside id="services">
           <h1>SERVICES</h1>
-          <!-- list posts category 'homepage_services' -->
           <?php 
           $media_items = get_attachments_by_media_tags( 'media_tags=service' );
           if ($media_items) {
