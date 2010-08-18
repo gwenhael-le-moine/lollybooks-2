@@ -1,22 +1,9 @@
-body { /* background: #ffddc0; */
-       /* background: #efccb0; */
-       /* background: #dfbba0; */
-       /* background: #cfaa90; */
-       /* background: #bf9980; */
-       /* background: #af8870; */
-       /* background: #9f7760; */
-       /* background: #8f6650; */
-       /* background: #7f5540; */
-       /* background: #6f4430; */
-       background: #5e3320;
-       /* background: #4d2210; */
-       /* background: #3c1100; */
-       /* background: #2b1100; */
-       /* background: #1a0000; */
-       /* background: #090000; */
+body { background: url( '../images/background.jpg') repeat fixed #d46464;
+       opacity: 0.94;
        font-family: sans-serif;
        font-size: 82.5%; }
 
+#content { }
 header, nav, footer { background: #eb3f01;
                       color: white;
                       text-align: left;
