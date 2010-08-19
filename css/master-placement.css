@@ -46,7 +46,7 @@ nav menu li a:active { padding-top: 1px; }
 /* footer */
 footer { width: 955px;
          float: left;
-         margin-top: 14px;
+         margin-top: 28px;
          padding: 3px; }
 
 #crumbs { margin-top: 3px; }
@@ -56,9 +56,10 @@ footer { width: 955px;
 /* homepage */
 #featured section, #featured aside, #latest-articles article { padding: 3px; }
 /** featured section */
-#featured .widget, #featured #event { margin-top: 14px; }
+#featured .widget, #featured #event { margin-top: 28px; }
+#featured .widget#events-calendar { margin-top: 14px; }
 #featured .widget { width: 185px; /* 19%; */
-                                        float: right; }
+                    float: right; }
 #featured .EC_Widget_display { height: 168px; }
 #featured .widget_lollybooks_radio { height: 122px;
                                      position: relative; }
@@ -88,7 +89,7 @@ footer { width: 955px;
 #services { width: 760px;
             margin-left: 100px;
             float: left;
-            margin-top: 14px;
+            margin-top: 28px;
             padding-left: 3px;
             padding-right: 3px;
             padding-bottom: 3px; }
@@ -110,7 +111,7 @@ footer { width: 955px;
 /** latest articles section */
 #latest-articles header { float: left;
                           height: 18px;
-                          margin-top: 14px;
+                          margin-top: 28px;
                           padding: 3px;
                           width: 953px; }
 #latest-articles article { width: 466px; /* 48.6%; */
