@@ -133,9 +133,9 @@ function last_post_from_cat( $cat ) {
    echo 'By <a class="url fn" href="#">'.the_author().'</a>';
    echo '</address>';
    echo '</footer>';
-   echo '<div class="entry-content">';
+   echo '<section>';
    echo the_content();
-   echo '</div>';
+   echo '</section>';
    endwhile;
 }
 
