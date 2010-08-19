@@ -85,28 +85,25 @@ footer { width: 955px;
                                   height: 243px;
                                   overflow-x: hidden; }
 
-/** services */
-#services { width: 760px;
-            margin-left: 100px;
-            float: left;
-            margin-top: 28px;
-            padding-left: 3px;
-            padding-right: 3px;
-            padding-bottom: 3px; }
-#services h1 { float: left;
-               width: 3px; }
+/** services & partners */
+#services, #partners { width: 760px;
+                       margin-left: 100px;
+                       float: left;
+                       margin-top: 28px ;
+                       padding-left: 3px;
+                       padding-right: 3px;
+                       padding-bottom: 3px; }
+#services h1, #partners h1 { float: left;
+                             width: 3px; }
+#services a, #partners a { margin: 0 2px;
+                           padding: 2px;
+                           float: left;
+                           margin-top: 3px;
+                           position: relative; }
 #services a { height: 95px;
-              width: 140px;
-              margin: 0 2px;
-              padding: 2px;
-              float: left;
-              margin-top: 3px;
-              position: relative; }
-#services a p { position: absolute;
-                bottom: 1px; }
-/* #services menu { line-height: 22px; } */
-/* #services menu li { float: right; } */
-/* #services menu li a:active { padding-top: 1px; } */
+                           width: 140px; }
+#services a p, #partners a p { position: absolute;
+                               bottom: 1px; }
 
 /** latest articles section */
 #latest-articles header { float: left;
