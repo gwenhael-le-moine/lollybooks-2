@@ -138,6 +138,17 @@ function last_post_from_cat( $cat ) {
    echo '</section>';
    endwhile;
 }
+function lastest_articles_from_cat( $cat ) {
+   last_post_from_cat( $cat );
+   echo '<ul>';
+   query_posts('showposts=2&offset=1&category_name=' . $cat);
+   while (have_posts()) : the_post();
+   echo '<li>';
+   echo '<a href="'.post_permalink().'" rel="bookmark">'.the_title( '', '', false ).'</a>';
+   echo '</li>';
+   endwhile;
+   echo '</ul>';
+}
 
 function get_cat_name_by_slug( $slug ) {
    return get_category_by_slug( $slug )->name;

@@ -42,25 +42,25 @@
         <article class="left">
           <?php $cat_slug = 'lollybooks-cafe'; ?>
           <aside><?php echo get_cat_name_by_slug( $cat_slug ); ?></aside>
-          <?php last_post_from_cat( $cat_slug ); ?>
+          <?php lastest_articles_from_cat( $cat_slug ); ?>
         </article>
         
         <article class="right">
           <?php $cat_slug = 'lollybooks-cafe'; ?>
           <aside><?php echo get_cat_name_by_slug( $cat_slug ); ?></aside>
-          <?php last_post_from_cat( $cat_slug ); ?>
+          <?php lastest_articles_from_cat( $cat_slug ); ?>
         </article>
 
         <article class="left">
           <?php $cat_slug = 'lollybooks-cafe'; ?>
           <aside><?php echo get_cat_name_by_slug( $cat_slug ); ?></aside>
-          <?php last_post_from_cat( $cat_slug ); ?>
+          <?php lastest_articles_from_cat( $cat_slug ); ?>
         </article>
 
         <article class="right">
           <?php $cat_slug = 'lollybooks-cafe'; ?>
           <aside><?php echo get_cat_name_by_slug( $cat_slug ); ?></aside>
-          <?php last_post_from_cat( $cat_slug ); ?>
+          <?php lastest_articles_from_cat( $cat_slug ); ?>
         </article>
       </section>
 
