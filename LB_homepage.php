@@ -10,7 +10,7 @@
         <article id="event">
           <?php $cat_slug = 'lollybooks-cafe'; ?>
           <aside><?php echo get_cat_name_by_slug( $cat_slug ); ?></aside>
-          <?php last_post_from_cat( $cat_slug ); ?>
+          <?php lastest_articles_from_cat( $cat_slug ); ?>
         </article>
 
        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar( 'homepage' ) ) : // begin homepage sidebar widgets
